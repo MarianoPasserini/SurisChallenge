@@ -1,0 +1,12 @@
+<div>
+  <button (click)="RemoveVagon(false)" class="btn btn-primary">REMOVE</button>
+  <button (click)="addVagon(false)" class="btn btn-primary">ADD</button>
+  <h1>Train Component</h1>
+  <input type="number" [(ngModel)]="vagon">
+  <button (click)="addVagon(true)" class="btn btn-primary">ADD</button>
+  <button (click)="RemoveVagon(true)" class="btn btn-primary">REMOVE</button>
+
+
+<p>{{train.join("-")}}</p>
+
+</div>
